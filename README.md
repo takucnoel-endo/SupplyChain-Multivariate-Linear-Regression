@@ -1,4 +1,4 @@
-# SupplyChain Data - Late Delivery Risk Random Forest
+# SupplyChain Data - Random Forest Late Delivery Risk Classifier
 
 ## References
 * https://towardsdatascience.com/random-forest-hyperparameters-and-how-to-fine-tune-them-17aee785ee0d
