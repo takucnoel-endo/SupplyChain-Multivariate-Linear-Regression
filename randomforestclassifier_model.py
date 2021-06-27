@@ -76,7 +76,7 @@ def fit_get_score(model, x_train, target_train, x_test, target_test):
 ##################
 ###Main Program###
 ##################
-df_original, df_model, columns, mcolumns = read_data(directory = 'C:\\Users\\taku0\\OneDrive\\デスクトップ\\Data Science\\Supply Chain\\Supplychaindata_clean.csv')
+df_original, df_model, columns, mcolumns = read_data(directory = 'C:\\...Directory...\\Supplychaindata_clean.csv')
 onehot_data = OneHot(data = df_model)
 standard_data = standard_category(data = df_model)
 
