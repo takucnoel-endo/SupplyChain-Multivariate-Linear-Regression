@@ -6,7 +6,7 @@ Data Cleaning for Supply Chain / Customer Linear Regression & Random Forest
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('C:\\Users\\taku0\\OneDrive\\デスクトップ\\Data Science\\Supply Chain\\Supplychaingdata_original.csv', encoding='latin1')
+df = pd.read_csv('[Path]', encoding='latin1')
 
 columns_to_drop = ['Sales', 'Category Id', 'Customer Email', 'Customer Fname', 'Customer Lname', \
                    'Customer Password', 'Customer State', 'Customer Street', 'Customer Zipcode', \
@@ -138,4 +138,4 @@ df_cleaning
 
 
 #Export cleaned data as csv file to a specified directory. 
-df_cleaning.to_csv(r'C:\Users\taku0\OneDrive\デスクトップ\Data Science\Supply Chain\SupplyChainData_Clean.csv', index = False)
+df_cleaning.to_csv('[path]', index = False)
